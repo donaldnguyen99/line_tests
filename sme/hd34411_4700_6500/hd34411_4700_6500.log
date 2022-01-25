@@ -1,0 +1,45 @@
+IDL 8.8.0 (darwin x86_64 m64).
+(c) 2020, Harris Geospatial Solutions, Inc.
+
+Licensed for use by: San Francisco State University (MAIN)
+License: MNT-5523696
+% Compiled module: SME_MAIN.
+% Compiled module: SME_ENTRYPOINTS.
+% Compiled module: SMECAT_VERIFY.
+% Compiled module: SME_GET_CODE_REVISION.
+% Compiled module: SME_LIB_VERSION.
+SME Library version: 4.35, November 2015
+SME Package version: 522
+SME Structure version: 5.1
+% Compiled module: SME_STRUCT_UPDATE.
+% Compiled module: SME_STRUCT_INFO.
+% Compiled module: READCOL.
+% Compiled module: REMCHAR.
+% Compiled module: GETTOK.
+% Compiled module: STRNUMBER.
+SME started the calculations on Wed Oct 13 13:52:59 2021
+% Compiled module: PASSLINELIST.
+% Compiled module: SME_NLTE_RESET.
+% Compiled module: SME_FUNC.
+% Compiled module: SME_FUNC_ATMO.
+% Compiled module: INTERP_ATMO_GRID.
+% Compiled module: INTERP_ATMO_PAIR.
+% Compiled module: INTERP_ATMO_CONSTRAINED.
+% Compiled module: MPFITFUN.
+% Compiled module: MPFIT.
+% Compiled module: INTERP_ATMO_FUNC.
+% Compiled module: INTERPOL.
+% Compiled module: PASSMODEL.
+% Compiled module: PASSABUND.
+% Compiled module: SME_UPDATE_DEPCOEFFS.
+% Compiled module: TAG_EXIST.
+% Compiled module: PASSWAVERANGE.
+ Will use Stehle's tables for Hydrogen line profiles
+% Compiled module: RTINT.
+% Compiled module: SME_CRVMATCH.
+% Compiled module: BEZIER_INIT.
+% Compiled module: BEZIER_INTERP.
+% Compiled module: POLY.
+% Compiled module: RESAMP.
+SME completed the calculations in 0h3m0s
+% Program caused arithmetic error: Floating underflow
