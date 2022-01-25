@@ -50,6 +50,5 @@ class VelsLoader_CCF(VelsLoader):
         self.filepaths = self.list_fits_filepaths(self.ccf_directory)
     
     def velocity_from_fits(self, filename, hdu_index=0):
-        hdul = fits.open(os.path.join(self.ccf_directory, filename))
-        return {'v': hdul[hdu_index].header['v'], 'e_v': hdul[hdu_index].header['e_v'], 'unit': 'cm/s'}
-
+        with fits.open(os.path.join(self.ccf_directory, filename)) as hdul:
+            return {'v': hdul[hdu_index].header['v'], 'e_v': hdul[hdu_index].header['e_v'], 'unit': 'cm/s'}

@@ -6,6 +6,7 @@ class FitsFileLoader():
     '''Class for handling fits files'''
 
     def __init__(self, spectra_directory=None):
+        ''''''
         self.current_directory = os.getcwd()
 
         if spectra_directory is not None:
@@ -37,7 +38,7 @@ class FitsFileLoader():
     @staticmethod
     def data_from_single_fits(filepath, hdu_index):
         '''Returns data from hdu[1] from fits file'''
-        hdul = fits.open(filepath)
-        return hdul[hdu_index].data
+        with fits.open(filepath) as hdul:
+            return hdul[hdu_index].data
 
     
