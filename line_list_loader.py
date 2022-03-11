@@ -6,9 +6,10 @@ import json
 
 
 class LineListLoader:
-
+    # Base class for specific line list loaders
     def __init__(self, filename):
         self.line_list_file = filename
+        self.columns = pd.Index()
 
     def search_column_name(self, name):
         column_name_list = self.columns.array[self.columns.str.contains(name, case=False)]
